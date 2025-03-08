@@ -45,31 +45,31 @@ BASE_URL=https://www.saucedemo.com
 USERNAME=
 PASSWORD=s
 
-## Running Tests
+# Running Tests
 
-# Run All Tests
+## Run All Tests
 npm run test
 
-# Run Smoke Tests
+## Run Smoke Tests
 npm run test:smoke
 
-# Run Regression Tests
+## Run Regression Tests
 npm run test:regression
 
-# Run Tests in Chrome
+## Run Tests in Chrome
 npm run test:chrome
 
-# Run Tests in Firefox
+## Run Tests in Firefox
 npm run test:firefox
 
-# Run Tests in Headed Mode
+## Run Tests in Headed Mode
 npm run test:headed
 
-# Run Tests in Parallel 
+## Run Tests in Parallel 
 npm run test:parallel
 
 
-## Reports 
+# Reports 
 Using playwright inbuilt html reporting
 
 # To generate and view the Playwright HTML report:
@@ -77,7 +77,7 @@ npm run report:html
 
 ## CI/CD/CT Integration
 
-# The project is integrated with GitHub Actions to run smoke, regression, and E2E tests. The following workflows are defined in the .github/workflows/ directory:
+### The project is integrated with GitHub Actions to run smoke, regression, and E2E tests. The following workflows are defined in the .github/workflows/ directory:
 
 1. Smoke Tests Workflow ( runs On every push and pull request to any branch. ) - > ( Validates the most critical functionalities to catch any obvious issues early. )
 
@@ -88,14 +88,14 @@ npm run report:html
 
 ## Project Structure
 
-# config/: 
+### config/: 
 Contains configuration files, including environment-specific configurations.
 
-# pages/:
+### pages/:
  Contains Page Object Model (POM) classes representing different pages of the application.
 
-# tests/: 
+### tests/: 
 Contains test scripts, including smoke tests, regression tests, and end-to-end tests.
 
-# .github/workflows/: 
+### .github/workflows/: 
 Contains GitHub Actions workflow files for CI/CD integration.

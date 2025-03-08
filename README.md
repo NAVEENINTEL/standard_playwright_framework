@@ -72,12 +72,12 @@ npm run test:parallel
 # Reports 
 Using playwright inbuilt html reporting
 
-# To generate and view the Playwright HTML report:
+## To generate and view the Playwright HTML report:
 npm run report:html
 
-## CI/CD/CT Integration
+# CI/CD/CT Integration
 
-### The project is integrated with GitHub Actions to run smoke, regression, and E2E tests. The following workflows are defined in the .github/workflows/ directory:
+## The project is integrated with GitHub Actions to run smoke, regression, and E2E tests. The following workflows are defined in the .github/workflows/ directory:
 
 1. Smoke Tests Workflow ( runs On every push and pull request to any branch. ) - > ( Validates the most critical functionalities to catch any obvious issues early. )
 

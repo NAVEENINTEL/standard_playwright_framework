@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Playwright test results and reports
+playwright-report/
+allure-results/
+reports/
+test-results/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# .gitignore
+.env.development
+.env.production
+.env.staging
+

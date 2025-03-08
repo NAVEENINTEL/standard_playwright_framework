@@ -98,4 +98,4 @@ Contains configuration files, including environment-specific configurations.
 Contains test scripts, including smoke tests, regression tests, and end-to-end tests.
 
 ### .github/workflows/: 
-Contains GitHub Actions workflow files for CI/CD integration.
+Contains GitHub Actions workflow files for CI/CD/CT integration.
